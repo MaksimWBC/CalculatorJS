@@ -19,7 +19,7 @@ body {
     margin: 15px;
     padding: 10px;
     user-select: none;
-    background-color: #c7d5c8;
+    box-shadow: 0 0 10px gray;
 }
 
 #display-area {
@@ -29,6 +29,7 @@ body {
     grid-template-rows: repeat(2, minmax( 40px, auto));
     word-wrap: break-word;
     margin-bottom: 10px;
+    color: white;
 }
 
 #button-area {
@@ -43,8 +44,9 @@ body {
     border-radius: 10px;
     margin: 5px;
     padding: 3px;
-    /* color: #626ca1; */
-    color: black;
+    color: white;
+    background-color: gray;
+    box-shadow: 0 0 5px gray;
 }
 
 .answer {
